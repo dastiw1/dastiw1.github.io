@@ -242,6 +242,7 @@ section,
 
 /** Оснащение  **/
 .equipment-group {
+  width: 100%;
   margin-bottom: 1.5rem;
   overflow: auto;
   border-bottom: 0.0625rem solid #9096a6;
@@ -437,6 +438,7 @@ table.tech-and-repair-table {
 .pricing-box__group {
   width: 50%;
   display: inline-block;
+  overflow: auto;
 }
 .pricing-box__label {
   font-weight: 500;
