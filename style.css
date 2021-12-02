@@ -229,6 +229,7 @@ section,
 
 /** Внешний осмотр  **/
 .inspect {
+  overflow: auto;
 }
 
 .inspect > .title {
@@ -240,6 +241,9 @@ section,
 }
 
 /** Оснащение  **/
+.equipment {
+  overflow: auto;
+}
 .equipment-group {
   width: 100%;
   margin-bottom: 1.5rem;
@@ -278,7 +282,7 @@ section,
   left: -2rem;
   top: 0.1875rem;
   display: block;
-  width: 17px;
+  width: 16.9px;
   height: 13px;
   transform: scale(0.6);
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxNyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2Ljg1MDEgMi4yNDk4N0w2LjI1MDEgMTIuODQ5OUM2LjE1NjIxIDEyLjk0NDUgNi4wMjg0MiAxMi45OTc4IDUuODk1MSAxMi45OTc4QzUuNzYxNzggMTIuOTk3OCA1LjYzMzk4IDEyLjk0NDUgNS41NDAxIDEyLjg0OTlMMC4xNTAwOTYgNy40NTk4N0MwLjA1NTQ0MDEgNy4zNjU5OSAwLjAwMjE5NzI3IDcuMjM4MTkgMC4wMDIxOTcyNyA3LjEwNDg3QzAuMDAyMTk3MjcgNi45NzE1NSAwLjA1NTQ0MDEgNi44NDM3NiAwLjE1MDA5NiA2Ljc0OTg3TDAuODUwMDk2IDYuMDQ5ODdDMC45NDM5OCA1Ljk1NTIyIDEuMDcxNzggNS45MDE5NyAxLjIwNTEgNS45MDE5N0MxLjMzODQyIDUuOTAxOTcgMS40NjYyMSA1Ljk1NTIyIDEuNTYwMSA2LjA0OTg3TDUuODkwMSAxMC4zNzk5TDE1LjQ0MDEgMC44Mjk4NzNDMTUuNjM3OSAwLjYzODA4OSAxNS45NTIzIDAuNjM4MDg5IDE2LjE1MDEgMC44Mjk4NzNMMTYuODUwMSAxLjUzOTg3QzE2Ljk0NDggMS42MzM3NiAxNi45OTggMS43NjE1NSAxNi45OTggMS44OTQ4N0MxNi45OTggMi4wMjgxOSAxNi45NDQ4IDIuMTU1OTkgMTYuODUwMSAyLjI0OTg3WiIgZmlsbD0iIzJBQTY1QyIvPgo8L3N2Zz4K);
