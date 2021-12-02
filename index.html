@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="paper.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @page {
+            size: A4
+        }
+    </style>
+</head>
+
+<body class="A4">
+    <div class="page sheet padding-4mm">
+        <section class="page__header">
+            <div class="logo">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="title">Акт осмотра АП № 123</div>
+        </section>
+        <!-- Основная информация об авто -->
+        <section class="main-info__wrapper">
+            <table class="main-info">
+                <tbody>
+                    <tr>
+                        <td>Дата формирования акта</td>
+                        <td>28.10.2021</td>
+                    </tr>
+                    <tr>
+                        <td>VIN</td>
+                        <td>NMTBB0JEX0R179897</td>
+                    </tr>
+                    <tr>
+                        <td>Гос.номер</td>
+                        <td>632FCA09</td>
+                    </tr>
+                    <tr>
+                        <td>Новый автомобиль (тип сделки)</td>
+                        <td>Lexus RX 300</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="main-info">
+                <tbody>
+                    <tr>
+                        <td>Клиент</td>
+                        <td>Аупеисова Айгуль Тишпековна </td>
+                    </tr>
+                    <tr>
+                        <td>Телефон</td>
+                        <td>87713007777</td>
+                    </tr>
+                    <tr>
+                        <td>Менеджер отдела продаж НА:</td>
+                        <td>Алтынбек Каржаубаев</td>
+                    </tr>
+                    <tr>
+                        <td>Телефон менеджера </td>
+                        <td>87777777788</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Визуальный осмотр -->
+        <section class="visual-inspectation">
+            <div class="visual-inspectation__info">
+                <div class="title mb32">Визуальный осмотр кузова и салона автомобиля</div>
+                <table class="main-info mb32">
+                    <tbody>
+                        <tr>
+                            <td>Марка/Модель:</td>
+                            <td>Toyota Allion</td>
+                        </tr>
+                        <tr>
+                            <td>ДВС/КПП:</td>
+                            <td>Вариатор</td>
+                        </tr>
+                        <tr>
+                            <td>Год выпуска: </td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Пробег: </td>
+                            <td>10 000 км</td>
+                        </tr>
+                        <tr>
+                            <td>Привод:</td>
+                            <td>Передний</td>
+                        </tr>
+                        <tr>
+                            <td>Цвет:</td>
+                            <td>Бежевый</td>
+                        </tr>
+                        <tr>
+                            <td>Комплектация:</td>
+                            <td>Active</td>
+                        </tr>
+                    </tbody>
+
+
+
+                </table>
+                <p class="additional_info">Информация о авариях, ДТП, дефектах, серьезных повреждениях в результате
+                    физического
+                    воздействия
+                    известные владельцу автомобиля:</p>
+
+                <p class="additional_info additional_info--outlined">Комментарий: Авто в хорошем состоянии Резина зима
+                    лето Сигнализация с автозаводом Есть крашенные детали Трейд ин Жанат/Витя </p>
+
+            </div>
+            <table class="visual-inspectation__images">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="visual-inspectation__img-wrap">
+                                <img src="exterior.png" alt="">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="visual-inspectation__img-wrap">
+                                <img src="interior.png" alt="">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+        </section>
+
+        <!-- Внешний осмотр -->
+        <section class="inspect">
+            <div class="title mb32">Внешний осмотр</div>
+
+            <table class="inspect-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Передняя часть</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Капот</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Лобовое стекло</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Крыша</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Крышка багажника/Задняя дверь</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>
+
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Передняя левая сторона</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Капот</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Лобовое стекло</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Крыша</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Крышка багажника/Задняя дверь</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Передняя правая сторона</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Тут будет длинный комментарий о чем -то
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Капот</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                        <td>
+
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Передняя правая сторона</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Капот</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Задняя левая сторона</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Дверь и центральная стойка</td>
+                                        <td>Скол</td>
+                                        <td>Необходима замена</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                        <td>
+
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Передняя правая сторона</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Капот</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+        </section>
+
+        <!-- Оснащение -->
+        <section class="equipment">
+            <div class="title mb32">Оснащение</div>
+
+            <div class="equipment-group">
+                <div class="equipment-group__name subtitle">Безопасность</div>
+                <ul class="equipment-group__items">
+                    <li>Подушки безопасности</li>
+                    <li>Вспомогательные системы</li>
+                    <li>Isofix</li>
+                    <li>Датчик давления в шинах</li>
+                    <li>Антиблокировочная система (ABS)</li>
+                    <li>Система стабилизации (ESP)</li>
+                </ul>
+            </div>
+
+            <div class="equipment-group">
+                <div class="equipment-group__name subtitle">Обзор</div>
+                <ul class="equipment-group__items">
+                    <li>Противотуманные фары</li>
+                    <li>Фары</li>
+                    <li>Электрообогрев</li>
+                    <li>Зоны стеклоочистителей</li>
+                    <li>Лобового стекла</li>
+                    <li>Боковых зеркал</li>
+                    <li>Форсунок стеклоомывателей</li>
+                </ul>
+            </div>
+            <div class="equipment-group">
+                <div class="equipment-group__name subtitle">Салон</div>
+                <ul class="equipment-group__items">
+                    <li>Противотуманные фары</li>
+                    <li>Фары</li>
+                    <li>Электрообогрев</li>
+                    <li>Зоны стеклоочистителей</li>
+                    <li>Лобового стекла</li>
+                    <li>Боковых зеркал</li>
+                    <li>Форсунок стеклоомывателей</li>
+                </ul>
+            </div>
+            <div class="equipment-group">
+                <div class="equipment-group__name subtitle">Мультимедиа</div>
+                <ul class="equipment-group__items">
+                    <li>Противотуманные фары</li>
+                    <li>Фары</li>
+                    <li>Электрообогрев</li>
+                    <li>Зоны стеклоочистителей</li>
+                    <li>Лобового стекла</li>
+                    <li>Боковых зеркал</li>
+                    <li>Форсунок стеклоомывателей</li>
+                </ul>
+            </div>
+            <div class="equipment-group">
+                <div class="equipment-group__name subtitle">Элементы экстерьера</div>
+                <ul class="equipment-group__items">
+                    <li>Противотуманные фары</li>
+                    <li>Фары</li>
+                    <li>Электрообогрев</li>
+                    <li>Зоны стеклоочистителей</li>
+                    <li>Лобового стекла</li>
+                    <li>Боковых зеркал</li>
+                    <li>Форсунок стеклоомывателей</li>
+                </ul>
+            </div>
+            <div class="equipment-group">
+                <div class="equipment-group__name subtitle">Комфорт</div>
+                <ul class="equipment-group__items">
+                    <li>Противотуманные фары</li>
+                    <li>Фары</li>
+                    <li>Электрообогрев</li>
+                    <li>Зоны стеклоочистителей</li>
+                    <li>Лобового стекла</li>
+                    <li>Боковых зеркал</li>
+                    <li>Форсунок стеклоомывателей</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Внутренний осмотр -->
+
+        <section class="inspect inspect--interior">
+            <div class="title mb32">Внутренний осмотр</div>
+            <table class="inspect-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Передняя часть</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Бампер</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Фара левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Фара правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Решетка радиатора</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Капот</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Лобовое стекло</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Крыша</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Крышка багажника/Задняя дверь</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Задняя часть</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="item--ok">
+                                        <td>Обивка сидения</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Обивка двери левая</td>
+                                        <td>
+                                            Скол, <br>Царапина, <br>Красилась
+                                        </td>
+                                        <td>
+                                            Необходима замена
+                                        </td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Обивка двери правая</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Коврики для пола/Настил пола</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Багажник</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr class="item--ok">
+                                        <td>Обивка багажника</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Коврики для пола/Настил пола</td>
+                                        <td></td>
+                                        <td>Нужна замена</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Отсек запасного колеса</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+        </section>
+
+        <!-- Техническое состояние автомобиля и Ремонтные работы -->
+        <section class="tech-and-repair">
+
+            <table class="tech-and-repair-table">
+                <tbody>
+                    <tr>
+                        <td>
+
+                            <div class="title mb32">Техническое состояние автомобиля</div>
+                            <table class="main-info main-info--gray">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Проверка при тест-драйве</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr class="item--bad">
+                                        <td>Запуск двигателя</td>
+                                        <td>Деформация</td>
+                                    </tr>
+                                    <tr class="item--bad">
+                                        <td>Работа двигателя </td>
+                                        <td>Грязь</td>
+
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Работа КПП</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Рулевое управление</td>
+                                    </tr>
+                                    <tr class="item--ok">
+                                        <td>Тормозная система </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                        </td>
+                        <td>
+
+                            <div class="title mb32">Ремонтные работы</div>
+                            <table class="main-info main-info--gray mb32">
+                                <thead>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="subtitle">Ремонтные работы</div>
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td>Ремонт кузова</td>
+                                        <td>200 000 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Покраска</td>
+                                        <td>300 000</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="subtitle">Итого:</td>
+                                        <td class="subtitle">500 000</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </section>
+
+        <!-- Оценочная стоимость -->
+
+        <section class="pricing">
+            <div class="title mb32">Оценочная стоимость</div>
+            <table class="pricing__items-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="pricing-box">
+                                <div class="pricing-box__title">Ожидания клиента по цене </div>
+                                <div class="pricing-box__body">
+                                    <div class="pricing-box__label">Цена</div>
+                                    <div class="pricing-box__price subtitle">12 000 000 ₸ </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="pricing-box pricing-box--advanced">
+                                <div class="pricing-box__title">Ожидания клиента по цене </div>
+                                <div class="pricing-box__body">
+                                    <div class="pricing-box__group">
+                                        <div class="pricing-box__label">Минимальная</div>
+                                        <div class="pricing-box__price subtitle">10 000 000 ₸ </div>
+                                    </div>
+                                    <div class="pricing-box__group">
+                                        <div class="pricing-box__label">Максимальная</div>
+                                        <div class="pricing-box__price subtitle">12 000 000 ₸ </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="pricing-box">
+                                <div class="pricing-box__title">Среднерыночная стоимость </div>
+                                <div class="pricing-box__body">
+                                    <div class="pricing-box__label">Цена</div>
+                                    <div class="pricing-box__price subtitle">11 000 000 ₸ </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="pricing-box">
+                                <div class="pricing-box__title">Предложение по цене зачета </div>
+                                <div class="pricing-box__body">
+                                    <div class="pricing-box__label">Цена</div>
+                                    <div class="pricing-box__price subtitle text--green">11 530 000 ₸ </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="final-step">
+            <div class="subtitle">С результатами оценки ознакомлены:</div>
+
+            <table class="signatures">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="fbox"><span>Эксперт-приемщик:</span> <span style="width: 59%;"></span></div>
+                        </td>
+                        <td>
+                            <div class="fbox"><span>Руководитель:</span> <span style="width: 69%;"></span></div>
+                        </td>
+                        <td>
+                            <div class="fbox"><span>Клиент:</span> <span style="width: 84%;"></span></div>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="raw-text">
+                <p>* Результат осмотра действителен в течение 3 (трех) дней с момента осмотра, при условии пробега не
+                    более 300 км и сохранения существующей комплектации и технического состояния.</p>
+                <p>** Результат осмотра может быть изменен при изменении типа сделки, изменения комплектации или
+                    технического состояния автомобиля.</p>
+                <p>*** Перед сдачей вашего автомобиля и оформлением договоров, пожалуйста убедитесь в отсутствии
+                    каких-либо штрафов и обременений на вашем автомобиле. </p>
+                <p>****Результат осмотра не является оценкой, которая регулируется Законом РК «Об оценочной
+                    деятельности», и не может быть использован иначе, как во взаимоотношениях между Клиентом и
+                    Автосалоном</p>
+            </div>
+
+            <div class="final-step__subtitle"><b>Достигнутые договоренности:</b></div>
+
+            <p class="additional_info additional_info--outlined">Комментарий: Авто в хорошем состоянии Резина зима лето
+                Сигнализация с автозаводом Есть крашенные детали Трейд ин Жанат/Витя </p>
+
+
+            <table class="final-step__contacts">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Пожалуйста, по любым вопросам, обращайтесь к вашему Эксперту-приемщику:</td>
+
+                        <td>
+                            <div class="final-step__contact-term">Специалист оценщик</div>
+                            <div class="final-step__contact-descr">Диас Диасович</div>
+                        </td>
+                        <td>
+                            <div class="final-step__contact-term">Телефон</div>
+                            <div class="final-step__contact-descr">8 777 777 77 77</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+    </div>
+</body>
+
+</html>
