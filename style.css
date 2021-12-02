@@ -79,7 +79,7 @@ section,
 .main-info--gray {
   background-color: #f7f8fb;
   border-radius: 1rem;
-  padding: calc(1rem - 0.325rem) 1rem;
+  padding: 0.675rem 1rem;
 }
 .main-info tbody tr > td {
   width: 50%;
@@ -439,6 +439,11 @@ table.tech-and-repair-table {
   width: 50%;
   display: inline-block;
   overflow: auto;
+}
+.pricing-box__group::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .pricing-box__label {
   font-weight: 500;
